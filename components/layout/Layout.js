@@ -2,7 +2,7 @@ import { Fragment, useContext } from "react";
 import NotificationContext from "../../context/notificationContext";
 import Header from "./Header";
 import Notification from "../ui/Notification";
-import AltogicBadge from "./AltogicBadge";
+
 // This import prevents a server-side rendering bug causing Font Awesome icons,
 // to flash from a large icon to where the icons flash from a very large icon down to a properly sized one:
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -55,7 +55,6 @@ function Layout(props) {
           </div>
         )}
       </div>
-      <AltogicBadge></AltogicBadge>
     </Fragment>
   );
 }

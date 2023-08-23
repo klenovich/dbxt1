@@ -19,7 +19,7 @@ function Header() {
     >
       <Link href="/">
         <a className="inline-flex items-center p-2 mr-4 ">
-          <Image src="/logo.png" alt="Logo" height={64} width={64}></Image>
+          <h1 className="text-4xl text-white font-sans">Test</h1>
         </a>
       </Link>
       <button
